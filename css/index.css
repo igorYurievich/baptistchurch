@@ -99,7 +99,7 @@
         }
 
 
-
+       
     
 
 
@@ -271,13 +271,19 @@
         }
         
         .social-item.facebook {
-            background-color: #1877f2;
+            background: linear-gradient(45deg, #1877f2, #3b5998);
         }
         
         .social-item.youtube {
-            background-color: #ff0000;
+            background: linear-gradient(45deg, #ff0000, #cc0000);
         }
         
+        
+        .social-item.instagram {
+            background: linear-gradient(45deg, #c13584, #f56040);
+        }
+        
+
         .social-item:hover {
             transform: scale(1.05);
         }
