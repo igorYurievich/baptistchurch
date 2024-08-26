@@ -49,6 +49,6 @@ body {
 
 @media (max-width: 768px) {
     #frontimage {
-        width: 80%;
+        width: 100%;
     }
 }
