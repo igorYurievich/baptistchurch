@@ -1,0 +1,12 @@
+
+footer {
+    background-color: #26403E;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px; /* Увеличьте высоту при необходимости */
+    padding: 20px;
+    text-align: center;
+}
