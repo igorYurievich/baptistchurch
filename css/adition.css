@@ -42,3 +42,13 @@ body {
         margin: 0; 
     }
 }
+
+#frontimage {
+    width: 60%;
+}
+
+@media (max-width: 768px) {
+    #frontimage {
+        width: 80%;
+    }
+}
