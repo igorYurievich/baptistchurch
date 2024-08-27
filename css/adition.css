@@ -86,12 +86,12 @@ font-weight: bold;
     color: #8e44ad;
 }
 
-#cartochka {
-    
-    text-align: justify;
-    line-height: 1.8; /* Увеличение межстрочного интервала */
-}
+
 
 .accordion-button  {
     background-color: #fffcf4;
+}
+.text-justify {
+    text-align: justify;
+   
 }
