@@ -106,11 +106,13 @@
         .schedule-table {
             width: 100%;
             border-collapse: collapse;
+            border-radius: 0.5rem; /* Скругление углов таблицы */
+            overflow: hidden; /* Убираем переполнение из-за скругленных углов */
         }
         
         .schedule-table th,
         .schedule-table td {
-            border: 1px solid #004d40;
+           
             padding: 12px;
             text-align: left;
         }
@@ -135,7 +137,6 @@
         .schedule-table td:first-child {
             font-weight: bold;
         }
-        
 
         #forma {
 
