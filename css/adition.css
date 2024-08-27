@@ -85,3 +85,9 @@ font-weight: bold;
     background-color: #f4e1f2;
     color: #8e44ad;
 }
+
+#cartochka {
+    
+    text-align: justify;
+    line-height: 1.8; /* Увеличение межстрочного интервала */
+}
