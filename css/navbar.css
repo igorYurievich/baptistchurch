@@ -2,54 +2,51 @@
     background: linear-gradient(90deg, #003d3b, #1a5c5a);
 }
 
-        .navbar img {
-            height: 80px;
-            transition: height 0.3s ease;
-        }
-        .navbar-nav .nav-link {
-            position: relative;
-            transition: color 0.3s, transform 0.3s;
-        }
-        .navbar-nav .nav-link:hover {
-            color: #ffeb3b;
-            transform: scale(1.1);
-        }
-        @media (max-width: 992px) {
-           
-        
-            .navbar-nav .nav-link {
-                position: relative;
-                padding-left: 15px; /* Отступ слева */
-                margin-bottom: 10px; /* Отступ снизу между элементами */
-                background: #006559;
-                color: #fff;
-                transition: background 0.3s, color 0.3s;
-                border-radius: 4px; /* Закругление углов */
-                transform: none; /* Отключить увеличение */
-            }
-        
-            .navbar-nav .nav-link:hover {
-                background: linear-gradient(90deg, #009688, #003d33); /* Светлее оттенок градиента */
-                color: #ffeb3b;
-            }
-        }
-        .navbar-nav .nav-link::after {
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: -5px;
-            width: 0;
-            height: 2px;
-            background-color: #ffeb3b;
-            transition: width 0.3s;
-        }
-        .navbar-nav .nav-link:hover::after {
-            width: 100%;
-        }
-        
+.navbar img {
+    height: 80px;
+    transition: height 0.3s ease;
+}
 
-        @media (max-width: 576px) {
-            .navbar img {
-                height: 60px;
-            }
-        }
+.navbar-nav .nav-link {
+    position: relative;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffeb3b;
+    transform: scale(1.1);
+}
+
+.navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: #ffeb3b;
+    transition: width 0.3s;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    .navbar img {
+        height: 60px;
+    }
+
+    .navbar-nav .nav-link {
+        transition: none;
+    }
+
+    .navbar-nav .nav-link::after {
+        content: none;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: inherit;
+        transform: none;
+    }
+}
