@@ -71,3 +71,17 @@ font-weight: bold;
 #citata {
     background-color: #fffcf4;
 }
+
+.event-card {
+    background: linear-gradient(45deg, #8e44ad, #c0392b);
+    color: white;
+    border: none;
+}
+.event-card .btn-light {
+    background-color: #ffffff;
+    color: #8e44ad;
+}
+.event-card .btn-light:hover {
+    background-color: #f4e1f2;
+    color: #8e44ad;
+}
