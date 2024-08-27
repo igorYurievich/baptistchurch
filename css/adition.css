@@ -52,3 +52,12 @@ body {
         width: 100%;
     }
 }
+
+@font-face {
+    font-family: 'aa';
+    src: url('../fonts/aa.ttf') format('truetype');
+}
+#titul {
+font-family: 'aa', sans-serif;
+text-align: center;
+}
