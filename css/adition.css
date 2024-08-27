@@ -72,6 +72,8 @@ font-weight: bold;
     background-color: #fffcf4;
 }
 
+#molodezka {
+
 .event-card {
     background: linear-gradient(45deg, #8e44ad, #c0392b);
     color: white;
@@ -86,7 +88,17 @@ font-weight: bold;
     color: #8e44ad;
 }
 
+}
 
+
+#church {
+
+   .card-body {
+
+    background: linear-gradient(90deg, #003d3b, #1a5c5a); color: white;
+
+   }
+}
 
 .accordion-button  {
     background-color: #fffcf4;
