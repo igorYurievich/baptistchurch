@@ -15,8 +15,22 @@
             transform: scale(1.1);
         }
         @media (max-width: 992px) {
+           
+        
+            .navbar-nav .nav-link {
+                position: relative;
+                padding-left: 15px; /* Отступ слева */
+                margin-bottom: 10px; /* Отступ снизу между элементами */
+                background: #006559;
+                color: #fff;
+                transition: background 0.3s, color 0.3s;
+                border-radius: 4px; /* Закругление углов */
+                transform: none; /* Отключить увеличение */
+            }
+        
             .navbar-nav .nav-link:hover {
-                transform: none;
+                background: linear-gradient(90deg, #009688, #003d33); /* Светлее оттенок градиента */
+                color: #ffeb3b;
             }
         }
         .navbar-nav .nav-link::after {
