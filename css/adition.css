@@ -63,3 +63,7 @@ text-align: center;
 font-weight: bold;
 
 }
+
+.accordion-collapse {
+    background-color: #fffcf4;
+}
