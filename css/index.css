@@ -279,6 +279,12 @@
             font-weight: bold;
         }
         
+        .whatsapp {
+            background: linear-gradient(45deg, #25d366, #128c7e);
+            font-weight: bold;
+        }
+        
+
         .social-item:hover {
             opacity: 0.8;
         }
