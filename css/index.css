@@ -237,63 +237,46 @@
         .social-media {
             display: flex;
             justify-content: center;
-            flex-wrap: wrap; /* Позволяет элементам переноситься на следующую строку при необходимости */
-            gap: 15px; /* Расстояние между иконками */
-        }
-        
-        .social-media-container {
-            padding: 20px;
-        }
-        
-        .social-media {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap; /* Позволяет элементам переноситься на следующую строку при необходимости */
-            gap: 15px; /* Расстояние между иконками */
+            flex-wrap: wrap;
+            gap: 15px;
         }
         
         .social-item {
             text-align: center;
             padding: 15px;
-            border-radius: 8px; /* Убираем или уменьшаем округлость углов для прямоугольного вида */
-            width: 180px; /* Установите ширину прямоугольников */
-            height: 60px; /* Установите высоту прямоугольников */
+            border-radius: 8px;
+            width: 180px;
+            height: 60px;
             display: flex;
             align-items: center;
             justify-content: center;
             transition: background 0.3s ease, color 0.3s ease;
-        }
-        
-        .social-item a {
             color: #fff;
             text-decoration: none;
-            display: flex;
-            flex-direction: row; /* Упорядочиваем иконку и текст по горизонтали */
-            align-items: center;
-            justify-content: center;
-            font-size: 16px; /* Размер шрифта для текста и иконки */
         }
         
         .social-item i {
-            font-size: 24px; /* Размер иконки */
-            margin-right: 10px; /* Отступ между иконкой и текстом */
+            font-size: 24px;
+            margin-right: 10px;
         }
         
         .social-item span {
-            font-size: 14px; /* Размер шрифта для текста под иконкой */
+            font-size: 14px;
         }
         
-        /* Градиенты для социальных медиа */
         .facebook {
             background: linear-gradient(45deg, #1877f2, #3b5998);
+            font-weight: bold;
         }
         
         .youtube {
             background: linear-gradient(45deg, #ff0000, #cc0000);
+            font-weight: bold;
         }
         
         .instagram {
             background: linear-gradient(45deg, #c13584, #f56040);
+            font-weight: bold;
         }
         
         .social-item:hover {
