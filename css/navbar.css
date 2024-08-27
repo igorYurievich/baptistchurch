@@ -50,3 +50,18 @@
         transform: none;
     }
 }
+
+@media (max-width: 992px) {
+           
+        
+    .navbar-nav .nav-link {
+        position: relative;
+        padding-left: 15px; 
+        margin-bottom: 10px; 
+        background: #006559;
+        color: #fff;
+        border-radius: 4px; 
+        transform: none; 
+    }
+
+}
