@@ -91,3 +91,7 @@ font-weight: bold;
     text-align: justify;
     line-height: 1.8; /* Увеличение межстрочного интервала */
 }
+
+.accordion-button  {
+    background-color: #fffcf4;
+}
