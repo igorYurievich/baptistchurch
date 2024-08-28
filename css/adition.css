@@ -131,7 +131,7 @@ font-weight: bold;
 .ylinsta {
     display: flex;
     align-items: center;
-    justify-content: center;
+    
     background: linear-gradient(45deg, #c13584, #f56040);
     color: white;
     padding: 10px 20px;
