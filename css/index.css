@@ -52,11 +52,11 @@
 
 .carousel-item img {
     object-fit: cover;
-    height: 300px;
+    height:500px;
 }
 @media (max-width: 767.98px) {
     .carousel-item img {
-        height: 200px;
+        height: 250px;
     }
 }
 
@@ -290,3 +290,5 @@
             opacity: 0.8;
         }
         
+
+    

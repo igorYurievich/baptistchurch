@@ -55,34 +55,56 @@
     </div>
 
     <div class="container py-4">
-        <div class="row flex-wrap">
-            <div class="col-md-6 d-flex justify-content-center py-2">
-                <img src="./images/media1.jpg" class="img-fluid" alt="Cruz"  data-bs-image="./images/media1.jpg">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" id="titull" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Проповеди
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                    <div class="accordion-body">
+                        <div class="container col-md-6">
+                            <div class="ratio ratio-16x9">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/rTu-gFeRfC4?si=ejKbmmwoIX05jJpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            
+                            
+                    </div>
+                    </div>
+                </div>
+                
             </div>
-            <div class="col-md-6 d-flex justify-content-center py-2">
-                <img src="./images/media2.jpg" class="img-fluid" alt="Bible"  data-bs-image="./images/media2.jpg">
-            </div>
-            <div class="col-md-6 d-flex justify-content-center py-2">
-                <img src="./images/media3.jpg" class="img-fluid" alt="Cruz"  data-bs-image="./images/media3.jpg">
-            </div>
-            <div class="col-md-6 d-flex justify-content-center py-2">
-                <img src="./images/media4.jpg" class="img-fluid" alt="Bible"  data-bs-image="./images/media4.jpg">
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" id="titull" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Фотографии
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" >
+                    <div class="accordion-body">
+                        <div class="row flex-wrap">
+                            <div class="col-md-6 d-flex justify-content-center py-2">
+                                <img src="./images/media1.jpg" class="img-fluid" alt="Cruz" data-bs-image="./images/media1.jpg">
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-center py-2">
+                                <img src="./images/media2.jpg" class="img-fluid" alt="Bible" data-bs-image="./images/media2.jpg">
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-center py-2">
+                                <img src="./images/media3.jpg" class="img-fluid" alt="Cruz" data-bs-image="./images/media3.jpg">
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-center py-2">
+                                <img src="./images/media4.jpg" class="img-fluid" alt="Bible" data-bs-image="./images/media4.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-                <div class="modal-body text-center">
-                    <img src="" class="img-fluid" id="modalImage" alt="">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
+   
+    
 
     <div class="py-5 text-light" id="footer">
         <div class="d-flex justify-content-between">
