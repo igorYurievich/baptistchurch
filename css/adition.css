@@ -107,3 +107,51 @@ font-weight: bold;
     text-align: justify;
    
 }
+
+
+.gradient-bg {
+    background: linear-gradient(90deg, #FF8C00, #FFD700); /* Темнее оттенок градиента */
+    color: #ffffff; /* Цвет текста, чтобы контрастировать с фоном */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавный переход для ховера */
+    cursor: pointer; /* Указатель курсора при наведении */
+}
+
+.card-link {
+    text-decoration: none; /* Убирает подчеркивание ссылки */
+}
+
+.gradient-bg:hover {
+    transform: scale(1.05); /* Увеличение карточки при наведении */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Добавление тени */
+}
+
+
+
+
+.ylinsta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #c13584, #f56040);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+
+.ylinsta i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.ylinsta span {
+    font-size: 16px;
+}
+
+.ylinsta:hover {
+    background: linear-gradient(45deg, #f56040, #c13584);
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
