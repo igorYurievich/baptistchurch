@@ -4,9 +4,21 @@
     color: #FFF;
     display: flex;
     flex-direction: column;
-    
     justify-content: center;
-    height: 100px; /* Увеличьте высоту при необходимости */
+    height: 100px; 
     padding: 20px;
     text-align: center;
+   
+}
+
+#emptyfooter {
+    background-color: #26403E;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px; 
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
 }
