@@ -1,18 +1,15 @@
-
 .shiny-button {
-    background: linear-gradient(90deg, #ff6f61, #ff9671, #ffc75f, #f9f871);
+    background: linear-gradient(90deg, #4b6cb7, #182848, #34e89e, #0f3443);
     background-size: 300%;
     color: white;
     border: none;
-    transition: background-position 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
-    box-shadow: 0 4px 15px rgba(255, 105, 135, 0.3);
+    transition: background-position 0.5s ease-in-out;
     position: relative;
     overflow: hidden;
 }
 
 .shiny-button:hover {
     background-position: right;
-    box-shadow: 0 6px 20px rgba(255, 105, 135, 0.5);
 }
 
 .shiny-button::before {
