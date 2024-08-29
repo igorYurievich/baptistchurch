@@ -1,20 +1,9 @@
 #titull {
     font-family: 'Vollda', sans-serif;
     font-weight: bold;
-    font-size: 1.2em;
+   
 }
 
-#titulll {
-    font-family: 'Vollda', sans-serif;
-    font-weight: bold;
-    
-}
-
-@media (max-width: 400px) {
-    #titull {
-        font-size: 1em;
-    }
-}
 
 @font-face {
     font-family: 'Vollda';
