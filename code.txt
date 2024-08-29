@@ -1,38 +1,32 @@
- <div class="container py-4 px-4">
-        <div class="row">
-            <div class="col-md-6">
-                <div id="carouselExample" class="carousel slide">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./images/event3.jpg" class="d-block w-100" alt="...">
+<div class="accordion-body" style="text-align: justify;">
+                            <div class="row flex-md-nowrap flex-wrap">
+                                <div class="container col-md-4 d-flex ">
+                                    <img src="images/book.jpeg" alt="Bible Study" class="img-fluid custom-img" style="width: 400px; margin-bottom: 15px;">
+                                </div>
+                                <div class="container col-md-8 text-justify">
+                                    <strong>Каждую неделю мы собираемся для изучения Библии.</strong>
+                                            Это время, когда мы вместе погружаемся в тексты, обсуждаем важные темы и укрепляем свою веру. Наши встречи проходят в теплой и дружелюбной атмосфере, где каждый может найти поддержку и вдохновение на своем духовном пути.
+
+                                </div>
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                            <img src="./images/event4.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./images/event5.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./images/event6.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./images/event7.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./images/event8.jpg" class="d-block w-100" alt="...">
-                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                        служение
+
+
+                          <div class="accordion-body" style="text-align: justify;">
+                        <strong>Служение — это возможность активно участвовать в жизни общины и служить другим.</strong>
+                        Это не просто выполнение обязанностей, а призвание, через которое мы выражаем свою веру и любовь к Богу и ближним. 
+                        В служении мы объединяемся, чтобы поддерживать друг друга, помогать нуждающимся и делиться радостью Евангелия с окружающими. 
+                        Каждое служение — это шаг к укреплению нашего духовного пути и осмыслению нашей роли в мире.
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-           
-        </div>
-    </div>
-</div>
