@@ -1,0 +1,36 @@
+
+.shiny-button {
+    background: linear-gradient(90deg, #ff6f61, #ff9671, #ffc75f, #f9f871);
+    background-size: 300%;
+    color: white;
+    border: none;
+    transition: background-position 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    box-shadow: 0 4px 15px rgba(255, 105, 135, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.shiny-button:hover {
+    background-position: right;
+    box-shadow: 0 6px 20px rgba(255, 105, 135, 0.5);
+}
+
+.shiny-button::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.shiny-button:hover::before {
+    opacity: 1;
+    top: -50%;
+    left: 150%;
+    transition: opacity 0.5s ease, left 1s ease;
+}

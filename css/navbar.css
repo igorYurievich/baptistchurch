@@ -2,9 +2,14 @@
     background: linear-gradient(90deg, #003d3b, #1a5c5a);
 }
 
-.navbar img {
+.navbar .logo{
     height: 80px;
     transition: height 0.3s ease;
+}
+
+.donation-icon
+{
+    height: 40px;
 }
 
 .navbar-nav .nav-link {
@@ -33,7 +38,7 @@
 }
 
 @media (max-width: 576px) {
-    .navbar img {
+    .navbar .logo {
         height: 60px;
     }
 
@@ -51,17 +56,33 @@
     }
 }
 
-@media (max-width: 992px) {
-           
-        
+@media (min-width: 991.9px) {
+
+    .nav-item {
+        display: flex;        
+        align-items: center;}
+}
+
+@media (max-width: 991.9px) {
     .navbar-nav .nav-link {
-        position: relative;
-        padding-left: 15px; 
-        margin-bottom: 10px; 
+        padding-left: 0; /* Убираем дополнительный отступ слева */
+        text-align: center; /* Выровнять текст по центру */
+        display: block; /* Делаем элемент блочным, чтобы он занял всю ширину */
+        margin-bottom: 10px;
         background: #006559;
         color: #fff;
-        border-radius: 4px; 
-        transform: none; 
+        border-radius: 4px;
     }
 
+    .donation-icon {
+        display: block;
+        margin: 0 auto; /* Выровнять иконку по центру */
+    }
 }
+
+
+.nav-item {
+    text-align: center;
+   
+}
+
