@@ -59,6 +59,41 @@
         </p>
     </div>
 
+  <style>
+.modal-content {
+    width: 100%;
+    background-color: #232528; /* Dark background color */
+    color: #ffffff; /* White text color */
+}
+</style>
+<!-- Modal -->
+<div class="modal fade" id="photoModal" tabindex="-1" aria-labelledby="photoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg-custom">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img id="modalImage" src="" class="img-fluid" alt="Modal Image">
+        </div>
+        <div class="modal-footer justify-content-between">
+          <button type="button" class="btn btn-secondary" id="prevImage">
+            <i class="fas fa-chevron-left"></i> 
+          </button>
+          <button type="button" class="btn btn-secondary" id="nextImage">
+            <i class="fas fa-chevron-right"></i> 
+          </button>
+          <a id="saveImage" class="btn btn-primary" download>
+            <i class="fas fa-download"></i> 
+          </a>
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+
     <div class="container py-4">
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
@@ -132,6 +167,58 @@
                 </div>
                 
                 <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingBaptismtwo">
+                        <button class="accordion-button collapsed" id="titull" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBaptismtwo" aria-expanded="false" aria-controls="collapseBaptismtwo">
+                           Крещение 15.10.2023
+                        </button>
+                    </h2>
+                    <div id="collapseBaptismtwo" class="accordion-collapse collapse" aria-labelledby="headingBaptismtwo">
+                        <div class="accordion-body">
+                            <div class="row flex-wrap">
+                                <div class="col-md-6 d-flex justify-content-center py-2">
+                                    <img src="./images_baptism/baptism202301.jpg" class="img-fluid" alt="Baptism" data-bs-image="./images/baptism1.jpg">
+                                </div>
+                                <div class="col-md-6 d-flex justify-content-center py-2">
+                                    <img src="./images_baptism/baptism202302.jpg" class="img-fluid" alt="Baptism" data-bs-image="./images/baptism2.jpg">
+                                </div>
+                                <div class="col-md-6 d-flex justify-content-center py-2">
+                                    <img src="./images_baptism/baptism202303.jpg" class="img-fluid" alt="Baptism" data-bs-image="./images/baptism2.jpg">
+                                </div>
+                                <div class="col-md-6 d-flex justify-content-center py-2">
+                                    <img src="./images_baptism/baptism202304.jpg" class="img-fluid" alt="Baptism" data-bs-image="./images/baptism2.jpg">
+                                </div>
+                                <div class="col-md-6 d-flex justify-content-center py-2">
+                                    <img src="./images_baptism/baptism202305.jpg" class="img-fluid" alt="Baptism" data-bs-image="./images/baptism2.jpg">
+                                </div>
+                                <div class="col-md-6 d-flex justify-content-center py-2">
+                                    <img src="./images_baptism/baptism202306.jpg" class="img-fluid" alt="Baptism" data-bs-image="./images/baptism2.jpg">
+                                </div>
+                                <div class="col-md-6 d-flex justify-content-center py-2">
+                                    <img src="./images_baptism/baptism202307.jpg" class="img-fluid" alt="Baptism" data-bs-image="./images/baptism2.jpg">
+                                </div>
+                                <div class="col-md-6 d-flex justify-content-center py-2">
+                                    <img src="./images_baptism/baptism202308.jpg" class="img-fluid" alt="Baptism" data-bs-image="./images/baptism2.jpg">
+                                </div>
+                                <div class="col-md-6 d-flex justify-content-center py-2">
+                                    <img src="./images_baptism/baptism202309.jpg" class="img-fluid" alt="Baptism" data-bs-image="./images/baptism2.jpg">
+                                </div>
+                                <div class="col-md-6 d-flex justify-content-center py-2">
+                                    <img src="./images_baptism/baptism202310.jpg" class="img-fluid" alt="Baptism" data-bs-image="./images/baptism2.jpg">
+                                </div>
+                                <div class="col-md-6 d-flex justify-content-center py-2">
+                                    <img src="./images_baptism/baptism202311.jpg" class="img-fluid" alt="Baptism" data-bs-image="./images/baptism2.jpg">
+                                </div>
+                                <div class="col-md-6 d-flex justify-content-center py-2">
+                                    <img src="./images_baptism/baptism202312.jpg" class="img-fluid" alt="Baptism" data-bs-image="./images/baptism2.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+
+
+                <div class="accordion-item">
                     <h2 class="accordion-header" id="headingBaptism">
                         <button class="accordion-button collapsed" id="titull" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBaptism" aria-expanded="false" aria-controls="collapseBaptism">
                            Крещение 24.09.2022
@@ -162,6 +249,7 @@
                         </div>
                     </div>
                 </div>
+
                
                 
             </div>
@@ -182,6 +270,6 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
+    <script src="./js/gallery-modal.js"></script>
 </body>
 </html>
