@@ -34,3 +34,14 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+
+  document.addEventListener('keydown', function(event) {
+    if (document.querySelector('#photoModal').classList.contains('show')) {
+      if (event.key === 'ArrowLeft') {
+        document.getElementById('prevImage').click();
+      } else if (event.key === 'ArrowRight') {
+        document.getElementById('nextImage').click();
+      }
+    }
+  });
+
