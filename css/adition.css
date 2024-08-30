@@ -5,6 +5,24 @@
 }
 
 
+#zagolovok {
+    font-family: 'Vollda', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+@media (max-width: 950px) { 
+
+
+    #zagolovok { font-size: 1.1em;
+    }
+
+}
+
+
+
+
 @font-face {
     font-family: 'Vollda';
     src: url('../fonts/Vollda-Bold.otf') format('truetype');
