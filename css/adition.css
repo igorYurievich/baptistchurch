@@ -30,11 +30,13 @@
 
 
 html {
-    background-image: url('../images/bg.jpg');
+    background-image: url('../images/bg2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
 
 
 body {
@@ -46,7 +48,7 @@ body {
 
 @media (min-width: 901px) {
     body {
-        width: 90%; 
+        width: 75%; 
         margin: 0 auto; 
     }
 }
