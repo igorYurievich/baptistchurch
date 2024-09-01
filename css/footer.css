@@ -2,14 +2,15 @@
 #footer {
     background-color: #26403E;
     color: #FFF;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 130px; 
+    
+    
+    
+   
     padding: 20px;
     text-align: center;
-   
 }
+
+
 
 #emptyfoot {
     background-color: #26403E;
