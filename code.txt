@@ -1,0 +1,176 @@
+mob veersion
+
+
+ <div class="bg-white rounded shadow-sm p-4 justify-content-center" id="mobslide">
+
+    <h2 class="text-center mb-4 py-4" id="titull">Какие у нас основные активности?</h2>
+
+    <div id="activitiesCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner"> <!-- Установка уменьшенной ширины карусели -->
+            <!-- Изучение Библии -->
+            <div class="carousel-item active">
+                <div class="row">
+                    <img src="images/book.jpeg" alt="Bible Study" class="img-fluid"> <!-- Уменьшенное изображение -->
+                    <h3 class="text-center"><strong>Изучение Библии</strong></h3>
+                </div>
+            </div>
+
+            <!-- Служение -->
+            <div class="carousel-item">
+                <div class="row">
+                    <img src="images/event3.jpg" alt="God bless" class="img-fluid"> <!-- Уменьшенное изображение -->
+                    <h3 class="text-center"><strong>Служение</strong></h3>
+                </div>
+            </div>
+
+            <!-- Детские лагеря -->
+            <div class="carousel-item">
+                <div class="row">
+                    <img src="images/event2.jpg" alt="Young Life Camp" class="img-fluid"> <!-- Уменьшенное изображение -->
+                    <h3 class="text-center"><strong>Детские лагеря</strong></h3>
+                </div>
+            </div>
+
+            <!-- Молодежные встречи -->
+            <div class="carousel-item">
+                <div class="row">
+                    <img src="images/media056.jpg" alt="Youth Meeting" class="img-fluid"> <!-- Уменьшенное изображение -->
+                    <h3 class="text-center"><strong>Молодежные встречи</strong></h3>
+                </div>
+            </div>
+
+            <!-- Братское общение -->
+            <div class="carousel-item">
+                <div class="row">
+                    <img src="images/event8.jpg" alt="Brotherhood" class="img-fluid"> <!-- Уменьшенное изображение -->
+                    <h3 class="text-center"><strong>Братское общение</strong></h3>
+                </div>
+            </div>
+
+            <!-- Сестринская группа -->
+            <div class="carousel-item">
+                <div class="row">
+                    <img src="images/event6.jpg" alt="Sisterhood" class="img-fluid" > <!-- Уменьшенное изображение -->
+                    <h3 class="text-center"><strong>Сестринская группа</strong></h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Управление каруселью -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#activitiesCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#activitiesCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+
+
+
+PC VERSION
+
+
+
+ <div class="bg-white rounded shadow-sm p-4" id="pcslide">
+        <h2 class="text-center mb-4 py-4" id="titull">Какие у нас основные активности?</h2>
+    
+        <div id="activitiesCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" >
+                <!-- Изучение Библии -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-6 d-flex justify-content-center">
+                            <img src="images/book.jpeg" alt="Bible Study" class="img-fluid" style="width: 600px; margin-bottom: 15px;">
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class=text-center><strong>Изучение Библии</strong></h3>
+                            <p class="text-justify">Каждую неделю мы собираемся для изучения Библии. Это время, когда мы вместе погружаемся в тексты, обсуждаем важные темы и укрепляем свою веру. Наши встречи проходят в теплой и дружелюбной атмосфере, где каждый может найти поддержку и вдохновение на своем духовном пути.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Служение -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6 d-flex justify-content-center">
+                            <img src="images/event3.jpg" alt="God bless" class="img-fluid" style="width: 600px; margin-bottom: 15px;">
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class=text-center><strong>Служение</strong></h3>
+                            <p class="text-justify">Служение — это неотъемлемая часть нашей духовной жизни. Каждое воскресенье мы собираемся вместе, чтобы поклоняться, молиться и возрастать в вере. Это время общения, поддержки и укрепления наших духовных основ. Приглашаем вас присоединиться к нам каждое воскресенье и стать частью нашей общины.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Детские лагеря -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6 d-flex justify-content-center">
+                            <img src="images/event2.jpg" alt="Young Life Camp" class="img-fluid" style="width: 600px; margin-bottom: 15px;">
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class=text-center><strong>Детские лагеря</strong></h3>
+                            <p class="text-justify">Детские лагеря Young Life — это уникальная возможность для роста и приключений. Каждый год мы организуем лагеря, которые предоставляют детям и подросткам шанс развиваться в безопасной и поддерживающей среде. Эти лагеря наполнены активными занятиями, духовными уроками и моментами общения, что помогает каждому участнику найти новых друзей и укрепить свою веру.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Молодежные встречи -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6 d-flex justify-content-center">
+                            <img src="images/media056.jpg" alt="Youth Meeting" class="img-fluid" style="width: 600px; margin-bottom: 15px;">
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class=text-center><strong>Молодежные встречи</strong></h3>
+                            <p class="text-justify">Наши молодежные встречи проводятся каждую пятницу. Это отличная возможность для общения, духовного роста и веселья. На данный момент встречи приостановлены, но следите за новостями — мы обязательно скоро возобновим их! Оставайтесь на связи, чтобы не пропустить возобновление встреч и новые мероприятия.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Братское общение -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6 d-flex justify-content-center">
+                            <img src="images/event8.jpg" alt="Brotherhood" class="img-fluid" style="width: 600px; margin-bottom: 15px;">
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class=text-center><strong>Братское общение</strong></h3>
+                            <p class="text-justify">Наши братские встречи создают уникальную атмосферу доверия и поддержки среди братьев. Это время для искренних разговоров, взаимного укрепления в вере и совместного отдыха. Следите за обновлениями, чтобы не пропустить новые встречи и мероприятия.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Сестринская группа -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6 d-flex justify-content-center">
+                            <img src="images/event6.jpg" alt="Sisterhood" class="img-fluid" style="width: 600px; margin-bottom: 15px;">
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class=text-center><strong>Сестринская группа</strong></h3>
+                            <p class="text-justify">Сестринские встречи — это место, где каждая сестра может найти поддержку, вдохновение и дружеское общение. Здесь мы делимся своими переживаниями, молимся друг за друга и укрепляемся в вере.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Управление каруселью -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#activitiesCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#activitiesCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    
+        <div class="text-center mt-4">
+            <a href="events.html" class="btn btn-primary">Узнайте больше о наших мероприятиях</a>
+        </div>
+    </div>

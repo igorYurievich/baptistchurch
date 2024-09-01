@@ -40,7 +40,7 @@ html {
 
 
 body {
-    background-color: #F3EAD3;
+    background-color: #f9f9f9;
     margin: 0 auto;
     min-height: 100vh;
 }
@@ -87,11 +87,11 @@ font-weight: bold;
 }
 
 .accordion-collapse {
-    background-color: #fffcf4;
+    background-color: #fefefe;
 }
 
 #citata {
-    background-color: #fffcf4;
+    background-color: #fefefe;
     
 }
 
@@ -124,7 +124,7 @@ font-weight: bold;
 }
 
 .accordion-button  {
-    background-color: #fffcf4;
+    background-color: #fefefe;
 }
 .text-justify {
     text-align: justify;
@@ -180,5 +180,5 @@ font-weight: bold;
 }
 
 #eventsbanner {
-    background-color: #fffaee;
+    background-color: #fefefe;
 }
