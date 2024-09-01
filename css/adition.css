@@ -179,6 +179,12 @@ font-weight: bold;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-#eventsbanner {
-    background-color: #fefefe;
-}
+ #eventsbanner {
+            background-color: #fefefe; /* Светлый фон для контейнера */
+            text-align: center; /* Выровнять текст по центру */
+            padding: 2rem; /* Добавить отступы вокруг контента */
+            border-radius: 0.5rem; /* Закругленные углы */
+            display: flex; /* Использовать Flexbox для выравнивания */
+            flex-direction: column; /* Размещение элементов по вертикали */
+            justify-content: center; /* Вертикальное выравнивание по центру */
+        }

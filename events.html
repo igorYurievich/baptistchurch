@@ -14,15 +14,6 @@
     <link rel="stylesheet" href="./css/adition.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <style>
-        .event-card {
-            background-color: #343a40; /* Темный фон */
-            color: #fff; /* Белый текст */
-        }
-        .event-card .card-body {
-            text-align: center; /* Текст по центру */
-        }
-    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg">
@@ -69,7 +60,58 @@
 
     <div class="container py-4 px-4">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-5"> 
+
+               
+                <div class="container py-4 px-4 my-2 rounded" id="eventsbanner">
+                    <h4 id="titul" class="container py-4">Предстоящие мероприятия</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th>Мероприятие</th>
+                                    <th>Дата</th>
+                                    <th>Время</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Женский молитвенный завтрак</td>
+                                    <td>14 сентября</td>
+                                    <td>10:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Мужской молитвенный завтрак</td>
+                                    <td>21 сентября</td>
+                                    <td>10:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Вечер хвалы и поклонения</td>
+                                    <td>27 сентября</td>
+                                    <td>19:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Семейный Вечер "Женские вопросы"</td>
+                                    <td>30 сентября</td>
+                                    <td>19:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Семейный Вечер "Мужские вопросы"</td>
+                                    <td>2 октября</td>
+                                    <td>19:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Молодежная встреча</td>
+                                    <td>4 октября</td>
+                                    <td>19:00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                </div>
+            <div class="col-md-7">
         <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -129,36 +171,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4"> 
-
-<div class="container py-4 px-4 my-2 rounded" id="eventsbanner">
-       
-    
-    <h4 id="titul" class="container py-4">Предстоящие мероприятия</h4>
-    
-    <div id="molodezka">
-            <div class="card event-card my-4" >
-                <div class="card-body">
-                    <h5 class="card-title">Молодежная встреча</h5>
-                    <p class="card-text">Дата: 4 октября<br>Время: 19:00</p>
-                    </div>
-            </div>
-            </div>
-    
-          
-
-         <div id="yl">
-            <a href="https://www.instagram.com/younglife.torre/" target="_blank" class="card-link">
-                <div class="card event-card my-4 gradient-bg">
-                    <div class="card-body">
-                        <h5 class="card-title">Young Life</h5>
-                        <p class="card-text">Каждую субботу в 16:00!</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-</div>
+  
 
 
 </div>
