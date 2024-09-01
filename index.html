@@ -45,14 +45,12 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav py-2">
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="index.html" id="titull">Главная</a>
-                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link text-light" href="events.html" id="titull">Мероприятия</a>
                     </li>
                     <li class="nav-item" >
-                        <a class="nav-link text-light" href="media.html" id="titull">Фото/Видео</a>
+                        <a class="nav-link text-light" href="media.html" id="titull">Галерея</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="rules.html" id="titull">Устав</a>
@@ -70,103 +68,96 @@
     </nav>
     
 
-    <div class="alert alert-info alert-dismissible fade show" role="alert">
-        <strong>🌟 Напоминаем, что чтение Библии принесет вам вдохновение сегодня! 📖</strong> 
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
-
-    <div class="container">
-        <h1 id="titul" class="container py-4">Церковь ЕХБ "Свет Жизни"</h1>
-        <p class="container py-4" style="text-align: justify;" id="zagolovok">
-            Дорогой посетитель, мы приветствуем Вас на странице нашей Церкви в Торревьехе. Если вы желаете узнать больше о Боге и его любви к человеку, приглашаем вас посетить наши Богослужения. Да благословит Вас Господь!
-        </p>        
-    </div>
-
-    <div class="container content-wrapper">
-        <div>
-            <table class="schedule-table">
-                <thead>
-                    <tr>
-                        <th colspan="2" class="text-center">РАСПИСАНИЕ</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Малая группа</td>
-                        <td class="text-left">Вторник 20:00 - 22:00</td>
-                    </tr>
-                    <tr class="day">
-                        <td>Молитвенное служение</td>
-                        <td class="text-left">Среда 19:00 - 21:00</td>
-                    </tr>
-                    <tr>
-                        <td>Братское общение</td>
-                        <td class="text-left">Четверг 19:30 - 21:30</td>
-                    </tr>
-                    <tr>
-                        <td>Молодежка</td>
-                        <td class="text-left">Пятница 19:00</td>
-                    </tr>
-                    <tr  class="day">
-                        <td>Клуб Young Life</td>
-                        <td class="text-left">Суббота 16:00 - 18:00</td>
-                    </tr>
-                    <tr>
-                        <td>Служение</td>
-                        <td class="text-left">Воскресенье  14:00 - 17:00</td>
-                    </tr>
-                </tbody>
-            </table>
+    <div class="image-container" id="banner">
+        <div class="text-overlay">
+            <h1 id="titul">Церковь ЕХБ <br>"Свет Жизни"</h1>
+           
         </div>
-        <div>
-            <div id="carouselExampleCaptions" class="carousel slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <img src="./images/media134.png" alt="Описание изображения">
+    </div>
+    
+    <style>
+        .image-container {
+            position: relative;
+            width: 100%;
+            height: 50vh; 
+            overflow: hidden; 
+        }
+    
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+        }
+    
+        .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white; 
+            text-align: center; 
+            width: 70%; 
+            padding: 10px; 
+            background-color: rgba(0, 0, 0, 0.5); 
+        }
+    </style>
+    
+   
+    <div class="container-md py-4">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="bg-white rounded shadow-sm p-4">
+                    <h2 class="text-center mb-4" id="titull">Кто мы?</h2>
+                    <p style="text-align: justify;" id="zagolovok"> Мы — Первая Баптистская Церковь в Торревьехе, и нам уже больше двух лет. Мы — сообщество верующих, стремящихся расти в вере и служении. Наша церковь проводит регулярные богослужения, молитвенные встречи и различные мероприятия, создавая уникальную атмосферу для наших посетителей. Мы рады каждому, кто хочет узнать больше о Боге, поделиться своими переживаниями или найти поддержку в духовном пути. Присоединяйтесь к нам и станьте частью нашей дружной и гостеприимной семьи! </p>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./images/group.png" class="d-block w-100" alt="Группа прославления поет">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Служение</h5>
-                            <p>Активности и служение в нашей церкви.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/book.jpeg" class="d-block w-100" alt="Изучение библии">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Изучение Библии</h5>
-                            <p>Изучение священных писаний для духовного роста.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/media342.jpg" class="d-block w-100" alt="Воскресное служение">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Молодежные встречи</h5>
-                            <p>Духовный рост и общение.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/yl.jpg" class="d-block w-100" alt="Лагерь Young Life">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Детские лагеря</h5>
-                            <p>Времяпровождение на свежем воздухе.</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Предыдущий</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Следующий</span>
-                </button>
             </div>
-        </div>
+    
+            <div class="col-md-6">
+                
+                    <table class="table schedule-table">
+                        <thead>
+                            <tr>
+                                <th colspan="2" class="text-center">РАСПИСАНИЕ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Малая группа</td>
+                                <td class="text-left">Вторник 20:00 - 22:00</td>
+                            </tr>
+                            <tr>
+                                <td>Молитвенное служение</td>
+                                <td class="text-left">Среда 19:00 - 21:00</td>
+                            </tr>
+                            <tr>
+                                <td>Братское общение</td>
+                                <td class="text-left">Четверг 19:30 - 21:30</td>
+                            </tr>
+                            <tr>
+                                <td>Молодежка</td>
+                                <td class="text-left">Пятница 19:00</td>
+                            </tr>
+                            <tr>
+                                <td>Клуб Young Life</td>
+                                <td class="text-left">Суббота 16:00 - 18:00</td>
+                            </tr>
+                            <tr>
+                                <td>Служение</td>
+                                <td class="text-left">Воскресенье 14:00 - 17:00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+       
     </div>
+    
+
+
+
+
+
 
     <div class="container py-4">
 
